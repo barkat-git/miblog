@@ -27,7 +27,7 @@ export default class Registration extends Component {
                     <Form.Control className="text-field" size="sm" type="text" placeholder="Password" />
                     <Form.Control className="text-field" size="sm" type="text" placeholder="Password" />
                     <Form.Control className="text-field" size="sm" type="text" placeholder="Password" />
-                    <NavLink as={Link} to={"/timeline"}><Button className="btn btn-primary" id="btnn">LOGIN</Button></NavLink>
+                    <NavLink as={Link} to={"/login"}><Button className="btn btn-primary" id="btnn">Sign Up</Button></NavLink>
                     </>
                
                     <p>If you have already sign in! <NavLink as={Link} to={"/login"}><strong>Sign In</strong></NavLink></p>
